@@ -6,7 +6,7 @@ import {
   Globe, LayoutDashboard, LayoutDashboardIcon, Smartphone
 
 }
-  from "lucide-react";
+  from 'lucide-react';
 
 const products = [
   {
