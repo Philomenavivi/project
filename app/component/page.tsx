@@ -2,27 +2,27 @@
 import Link from "next/link";
 import Image from "next/image";
 import manimage from "../../public/image/man.png";
-import {
-  Globe, LayoutDashboard, LayoutDashboardIcon, Smartphone
+import { Globe, LayoutDashboard, Smartphone } from "lucide-react";
 
-}
-  from 'lucide-react';
+
+
+
 
 const products = [
   {
-    icon: "Globe",
+    icon: <Globe/>,
     title: "Dashboard design",
     paragraph: "Professional dashboard design and development solutions tailored to your needs.",
     color: "bg-blue-700",
   },
   {
-    icon:"LayoutDashboardIcon",
+    icon:<LayoutDashboard/>,
     title: "Website Design",
     paragraph: "Custom website design solutions focused on user experience and branding.",
     color: "bg-gray-700",
   },
   {
-    icon:"smartphone",
+    icon:<Smartphone/>,
     title: "Mobile app design",
     paragraph: "Responsive mobile app designs that engage users and improve conversions.",
     color: "bg-yellow-700",
